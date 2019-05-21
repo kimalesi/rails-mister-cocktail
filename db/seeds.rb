@@ -7,12 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 lemon = Ingredient.create(name: "lemon")
-lemon.save!
 ice = Ingredient.create(name: "ice")
-ice.save!
 mint_leaves = Ingredient.create(name: "mint leaves")
-mint_leaves.save!
 pomelos = Ingredient.create(name: "pomelos")
-pomelos.save!
 rhum = Ingredient.create(name: "rhum")
-rhum.save!
+
+sex_on_the_beach = Cocktail.create(name: "Sex on the beach")
+mojito = Cocktail.create(name: "Mojito")
+spritz = Cocktail.create(name: "spritz")
+

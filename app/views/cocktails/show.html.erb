@@ -1,0 +1,12 @@
+<h1><%= @cocktail.name %></h1>
+<p><% @doses.each do |dose| %>
+  <%= dose.description %>
+  <%= dose.ingredient.name %>
+  <%end%>
+
+</p>
+
+<%= link_to '<i class="fas fa-plus"> Add a dose</i>'.html_safe, new_cocktail_dose_path(@cocktail) %>
+
+
+<%= link_to '<i class="fas fa-undo"></i> Back to Cocktails</i>'.html_safe,cocktails_path %>
